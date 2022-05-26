@@ -1,0 +1,418 @@
+@font-face 
+{   
+    font-family: "test";    
+    src: url('../font/NotoSans-Bold.ttf'); 
+}
+@media (min-width: 992px)/* les ordinateurs portables*/
+{
+    body{
+        margin: 0;
+    
+    
+    }
+    .recette 
+    {
+        text-decoration: none;
+        color: green;
+    }
+        .personne
+    {    color: rgb(54, 218, 137);
+        text-decoration: underline;
+    }
+    .Recherche{
+        font-family: test;
+        background-color: black;
+         width: 100%;
+         display: flex;
+        height: 100px;
+        position: fixed;
+        color:green;
+        font-size: x-large;
+        padding: 15px;
+        align-items: center;
+        top: 0;
+    }
+    input 
+    {
+    margin-left:150px;
+    height: 15px;
+    }
+    .li-1
+    {
+        padding-right: 25px;
+        display: inline-block;
+    }
+    
+    label
+    {
+    position: absolute;
+    font-size: 15px;
+    color: rgb(255, 242, 242);		
+    margin-left: 125px;   
+    bottom: 35%;;
+    }
+    .pepe
+    {
+    width: 15%;
+    }
+    .a
+    {
+       text-decoration: none;
+       font-size: 15px;
+       color: green;
+    }
+    .a:hover{
+    background-color:rgb(111, 216, 111);
+    
+    }
+    
+    .li-2
+    {
+        display: inline-block;  
+        padding-right: 15px;
+        font-size: 15px;;
+    }
+    
+    ul {
+    list-style-type:none;
+    }
+    .allign{
+        position: absolute;
+        left:1050px;
+        top: 35px;
+        padding-left: 0px;
+        
+    }
+
+    .icon{
+        transition: 1s;
+        border: 3px green solid;
+        border-radius: 24em;
+        width: 35px;
+        text-align: center;
+        padding: 5px;
+    }
+    .icon:hover{
+        transition: 1s;
+        border: 3px green solid;
+        padding: 10px;
+    
+    }
+
+    .preparation
+    {
+        font-size: 25px;
+        color: rgb(219, 29, 146);
+        display: inline-block;
+        margin-left: 300px;
+    
+    }
+    .fa
+    {   display: inline-block;
+         padding-right:35px;
+     
+    }
+    .text
+    {
+        
+        text-align: center;
+        font-family: test;
+        font-style: italic;
+        font-style: bold;
+        font-size: 23px;
+    }
+    .star
+    {  
+        margin-left:500px;
+        display: inline-flex;
+        display: flex;
+        font-size: 32px;
+        align-items: center;
+    
+    }
+    .crepe
+{
+    width: 550px;
+    height: 350px;
+   
+    margin-left:300px ;
+}
+.p
+{
+    color: rgba(255, 102, 0, 0.904);
+}
+.phrase
+{
+   display: inline-block;
+    padding: 10px;
+    color: black;
+}
+
+.etape
+    {
+        margin-left: 200px;
+        font-size: larger;
+        color: rgb(155, 29, 144);
+        text-decoration: underline;
+    }
+    .po 
+    {
+        margin-left: 170px;
+        font-family: test;
+        
+        color: rgb(90, 85, 87);
+    }
+    .ite
+    {
+        white-space: nowrap;
+    }
+    
+
+    .avis
+    {
+            background-color:#f12711;
+         background: linear-gradient(to right, #f12711, #f5af19);
+           background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+         margin-left: 150px;
+        border:2px solid black;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .partage
+    {
+        border:solid 1px black;
+        width: 600px;
+        text-align: center;
+        font-family: test;
+    }
+    .feu
+    {  padding: 5px;
+        margin-left: 20px;
+        display: inline-block;
+        padding: 5px;
+      background-color: white;   
+      border:solid black 1px;
+      cursor: pointer;
+    }
+    
+    .feu:hover
+    {
+        padding: 10px;
+        transition: 1s
+    }
+    .penser
+    {
+        font-size: 13.5px;
+    }
+    .etoile
+    {
+           display: inline-block;
+            color: rgba(255, 102, 0, 0.904);
+    }
+
+}
+@media (min-width: 1200px)/*tv*/
+{
+       body{
+        margin: 0;
+    }
+    .recette 
+    {
+        text-decoration: none;
+        color: green;
+    }
+        .personne
+    {    color: rgb(54, 218, 137);
+        text-decoration: underline;
+    }
+    .Recherche{
+        font-family: test;
+        background-color: black;
+         width: 100%;
+         display: flex;
+        height: 100px;
+        position: fixed;
+        color:green;
+        font-size:large;
+        padding: 15px;
+        align-items: center;
+        top: 0;
+        font-size: x-large;
+    }
+input 
+{
+  
+    margin-left:350px;
+ 
+}
+ .li-1
+ {
+        padding-right: 10px;
+        display: inline-block;
+  }
+
+label
+    {
+        font-size: 20px;
+ color: white;
+   position: absolute;
+    color: rgb(255, 242, 242);      
+    margin-left: 300px;   
+    bottom: 35%;;
+    }
+
+.a
+{
+    font-size: medium;
+       text-decoration: none;
+       color: green;
+
+}
+.a:hover{
+    background-color:rgb(111, 216, 111);
+
+}
+
+    .li-2
+    {
+        display: inline-block;  
+        padding-right: 15px;
+        font-size: 15px;;
+    }
+
+    ul {
+list-style-type:none;
+    }
+    .allign{
+        position: absolute;
+        left:1500px;
+        top: 45px;
+        padding-left: 0px;
+        
+    }
+    .icon{
+        font-size: 25px;
+        transition: 1s;
+        border: 3px green solid;
+        border-radius: 24em;
+        width: 40px;
+        text-align: center;
+        padding: 5px;
+    }
+    .icon:hover{
+        transition: 1s;
+        border: 3px green solid;
+        padding: 10px;
+   
+    }
+.text
+{
+    
+    text-align: center;
+    font-family: test;
+    font-style: italic;
+    font-style: bold;
+    font-size: 23px;
+}
+.star
+{  
+    margin-left: 750px;
+    display: inline-flex;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+
+}
+.p
+{
+    color: rgba(255, 102, 0, 0.904);
+}
+.crepe{
+    width: 550px;
+    height: 350px;
+   margin-left: 550px;
+}
+.preparation
+{
+    font-size: 25px;
+    color: rgb(219, 29, 146);
+    display: inline-block;
+    margin-left: 550px;
+
+}
+.fa
+{   display: inline-block;
+     padding-right:35px;
+ 
+}
+.phrase
+{
+   display: inline-block;
+    padding: 10px;;
+    color: black;
+}
+.etape
+{
+     padding-right: 100px;
+    font-size: larger;
+    color: rgb(155, 29, 144);
+    text-decoration: underline;
+}
+.ite
+{
+    white-space: nowrap;
+}
+.tout
+{
+    
+    margin-left: 175px;
+}.po
+{
+font-family: test;
+margin-left: 170px;
+
+color: rgb(90, 85, 87);
+}
+.avis
+{
+    background-color:#f12711;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+     margin-left: 100px;
+    border:2px solid black;
+    width: 600px;
+    text-align: center;
+}
+
+.partage
+{
+    border:solid 1px black;
+    width: 600px;
+    text-align: center;
+    font-family: test;
+}
+.feu
+{  padding: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 5px;
+  background-color: white;   
+  border:solid black 1px;
+}
+
+.feu:hover
+{
+    padding: 10px;
+    transition: 1s
+}
+.penser
+{
+    font-size: 13.5px;
+}
+.etoile
+{
+    display: inline-block;
+        color: rgba(255, 102, 0, 0.904);
+}
+}
